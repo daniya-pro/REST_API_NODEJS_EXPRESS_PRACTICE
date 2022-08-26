@@ -1,5 +1,9 @@
 # Description
 rest api for book store
+
+Hosted on Heroku: https://booksapirest1.herokuapp.com/api/books
+
+
 ## Documentation
 
 ### How to start project
