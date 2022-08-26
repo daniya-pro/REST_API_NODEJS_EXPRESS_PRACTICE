@@ -1,0 +1,21 @@
+{
+  "type": "module",
+  "name": "rest_api_nodejs_express_practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --experimental-modules --experimental-specifier-resolution=node ./src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon --es-module-specifier-resolution=node  ./src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "joi": "^17.6.0",
+    "uuid": "^8.3.2"
+  }
+}
